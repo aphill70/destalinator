@@ -227,7 +227,7 @@ class Destalinator(object):
         message += "archived if no one participates in {} over the next 30 days: "
         message += ", ".join(["#" + x for x in stale_channels])
         message = message.format(channel, being, there)
-        self.slackbot.say("general", message)
+        self.slackbot.say(os.getenv(self.config.tell_general_channel_env_varname), message)
 
 
     def get_stale_channels(self, days):
