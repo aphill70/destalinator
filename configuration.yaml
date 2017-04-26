@@ -33,6 +33,8 @@ log_channel: "destalinator-log"
 
 # Channels to ignore when archiving (i.e. they can be silent and not get archived)
 ignore_channels:
+  - _silence
+  - apple
   - destalinator-log
 
 # Regular expression patterns for additional channels to ignore during archiving
