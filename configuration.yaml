@@ -37,6 +37,7 @@ ignore_channels:
   - apple
   - destalinator-log
   - responses-team-alerts
+  - helloworld
 
 # Regular expression patterns for additional channels to ignore during archiving
 ignore_channel_patterns:
